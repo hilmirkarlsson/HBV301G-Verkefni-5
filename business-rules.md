@@ -1,13 +1,9 @@
 ﻿# Viðskiptareglur
 
-> Skráið þrjár reglur í þremur ólíkum flokkum: **staðreyndir, takmarkanir, aðgerðareglur, ályktanir og útreikningar**. Ekki þarf reglu í öllum fimm flokkum.
->
-> Regla lýsir því sem gildir í starfseminni, óháð hugbúnaði. Skrifið eina reglu í hverri reglusetningu. Greinið uppruna og merkið eigin tillögur eða forsendur skýrt. Vísið í fyrirliggjandi ferli eða verkefni notanda með auðkenni og tengli ef það er til.
-
-| Auðkenni | Stutt heiti | Reglusetning | Flokkur | Rök fyrir flokkun (1 setning) | Uppruni og staða (staðfest / tillaga / forsenda) | Ferli eða verkefni notanda (auðkenni/tengill) |
+| Auðkenni | Stutt heiti | Reglusetning | Flokkur | Rök fyrir flokkun | Uppruni og staða | Ferli eða verkefni notanda |
 |---|---|---|---|---|---|---|
-| VR-1 | … | … | … | … | … | … |
-| VR-2 | … | … | … | … | … | … |
-| VR-3 | … | … | … | … | … | … |
+| VR-1 | Eignarhald gagna | Notandi á öll persónugögn og æfingagögn sem hann skráir og getur óskað eftir eyðingu þeirra. | Takmörkun | Reglan takmarkar hvernig fyrirtækið má geyma og meðhöndla gögn notenda. | BRG-1 úr verkefni 1, staðfest | Eyða aðgangi notanda ([QA-2 Persónuvernd](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/quality_attribute.md#qa-2-pers%C3%B3nuvernd))|
+| VR-2 | Skilgreining á persónulegu meti | Skráð lyfting telst vera persónulegt met ef þyngd hennar er hærri en áður skráð mesta þyngd notandans eða ef endurtekningar eru fleiri á sömu þyngd í sömu æfingu. | Ályktun | Reglan skilgreinir hvenær ný staða (persónulegt met) er dregin af samanburði við fyrri skráningar í léninu. | Tillaga byggð á F-3, UR-6 Persónuleg met, FR-16 og þörfum Methafans | Skrá æfingu / skoða tölfræði ([UR-6 Persónuleg met](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/user_requirement.md#ur-6-pers%C3%B3nuleg-met-f-3)) |
+| VR-3 | Framfarir reiknaðar út frá skráningum | Framfarir notanda skulu eingöngu byggjast á þeim æfingasettum sem notandi hefur skráð. | Útreikningur | Reglan skilgreinir hvernig framvinda er ákvörðuð út frá gögnum. | Tillaga byggð á F-3 og BREQ-1 | Skoða framfarir ([F-3 Framfarir](https://github.com/hilmirkarlsson/HBV301G-Verkefni-1/blob/main/SRS/feature.md#f-3-framfarir)) |
 
-Veljið tvær reglur sem kalla á stuðning kerfisins og skráið [afleiddar virknikröfur og samþykktarpróf](derived-requirements.md). Endurtakið ekki reglutextann þar.
+Afleiddar virknikröfur og samþykktarpróf fyrir VR-1 og VR-2 má finna í skjalinu [derived requirements](derived-requirements.md).
